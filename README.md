@@ -24,7 +24,7 @@ ometry. SpiderSolver leverages a coarse-grained attention mechanism to capture
 
 ## 🧠 2.  Architecture
 
-The three figures respectively illustrate: the model’s overall architecture; the spiderweb-like subregion structure from spiderweb tokenization; and the optimal transport–based alignment used for spectral clustering.
+The two figures respectively illustrate: the model’s overall architecture; the spiderweb-like subregion structure from spiderweb tokenization and the optimal transport–based alignment used for spectral clustering.
 
 ![Image text](architecture.png)
 
