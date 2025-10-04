@@ -59,7 +59,7 @@ If using our Infant-PWMl-CP dataset or find this work useful in your research, p
 @inproceedings{qi2025SpiderSolver,
   title     = {SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries},
   author    = {Kai Qi, Fan Wang, Zhewen Dong and Jian Sun},
-  booktitle   = {NeurIPS},
+  booktitle = {NeurIPS},
   year      = {2025}
 }
 ```
