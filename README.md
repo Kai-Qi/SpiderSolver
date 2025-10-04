@@ -56,7 +56,7 @@ The required Python packages for each code implementation are listed in their re
 If using our Infant-PWMl-CP dataset or find this work useful in your research, please cite our paper:
 
 ```
-@inproceedings{qi2025bipmft,
+@inproceedings{qi2025SpiderSolver,
   title     = {SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries},
   author    = {Kai Qi, Fan Wang, Zhewen Dong and Jian Sun},
   booktitle   = {NeurIPS},
