@@ -25,7 +25,7 @@ ometry. SpiderSolver leverages a coarse-grained attention mechanism to capture
 ## 🧠 2.  Architecture
 The two figures respectively illustrate the model's overall architecture and the design of **Bidirectional Projection Fusion Module**.
 
-![Image text](architecture.pdf)
+![Image text](architecture.png)
 
 
 
