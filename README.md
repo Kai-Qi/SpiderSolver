@@ -15,7 +15,10 @@ The official code repository of SpiderSolver: A Geometry-Aware Transformer for S
 
 ## 🧠 2.  Architecture
 
-The two figures respectively illustrate: the model’s overall architecture; the spiderweb-like subregion structure from spiderweb tokenization and the optimal transport–based alignment used for spectral clustering.
+The three figures respectively illustrate:
+visualization of partial datasets; the model’s overall architecture; the spiderweb-like subregion structure from spiderweb tokenization and the optimal transport–based alignment used for spectral clustering.
+
+![Image text](data.png)
 
 ![Image text](architecture.png)
 
