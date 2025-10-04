@@ -4,19 +4,11 @@ The official code repository of SpiderSolver: A Geometry-Aware Transformer for S
 # SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries，NeurIPS 2025.
 
 ##  🧾 1.  Abstract
-
- Transformers have demonstrated effectiveness in solving partial differential equa
-tions (PDEs). However, extending them to solve PDEs on complex geometries
- remains a challenge. In this work, we propose SpiderSolver, a geometry-aware
- transformer that introduces spiderweb tokenization for handling complex domain
- geometry and irregularly discretized points. Our method partitions the irregular
- spatial domain into spiderweb-like patches, guided by the domain boundary ge
-ometry. SpiderSolver leverages a coarse-grained attention mechanism to capture
- global interactions across spiderweb tokens and a fine-grained attention mechanism
- to refine feature interactions between the domain boundary and its neighboring
- interior points. We evaluate SpiderSolver on PDEs with diverse domain geometries
- across five datasets, including cars, airfoils, blood flow in the human thoracic aorta,
- as well as canonical cases governed by the Navier-Stokes and Darcy flow equations.
+ Transformers have demonstrated effectiveness in solving partial differential equations (PDEs). However, extending them to solve PDEs on complex geometries
+ remains a challenge. In this work, we propose SpiderSolver, a geometry-aware transformer that introduces spiderweb tokenization for handling complex domain
+ geometry and irregularly discretized points. Our method partitions the irregular spatial domain into spiderweb-like patches, guided by the domain boundary geometry. SpiderSolver leverages a coarse-grained attention mechanism to capture global interactions across spiderweb tokens and a fine-grained attention mechanism
+ to refine feature interactions between the domain boundary and its neighboring interior points. We evaluate SpiderSolver on PDEs with diverse domain geometries
+ across five datasets, including cars, airfoils, blood flow in the human thoracic aorta, as well as canonical cases governed by the Navier-Stokes and Darcy flow equations.
  Experimental results demonstrate that SpiderSolver consistently achieves state-of-the-art performance across different datasets and metrics, with better generalization
  ability in the OOD setting.
 
@@ -30,7 +22,7 @@ The two figures respectively illustrate: the model’s overall architecture; the
 ![Image text](spider_and_OT.png)
 
 
-##  🏋️‍♂️ 4.  Training on the Infant-PWMl-CP Dataset
+##  🏋️‍♂️ 4.  Training
 
 ### 🔧 Training
 
@@ -53,8 +45,7 @@ The required Python packages for each code implementation are listed in their re
 
 
 ## 📚 7. Citation
-If using our Infant-PWMl-CP dataset or find this work useful in your research, please cite our paper:
-
+If you find this work helpful for your research, please cite our paper:
 ```
 @inproceedings{qi2025SpiderSolver,
   title     = {SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries},
