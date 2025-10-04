@@ -2,23 +2,24 @@
 SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries
 
 
-# Bidirectional Projection-Based Multi-Modal Fusion Transformer for Early Detection of Cerebral Palsy in Infants
+# SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries，NeurIPS 2025.
 
 ##  🧾 1.  Abstract
 
-
-Periventricular white matter injury (PWMI) is the most common magnetic resonance imaging (MRI) finding in infants with cerebral palsy (CP). This work aims to detect CP and identify subtle, sparse PWMI lesions in infants under two years old with immature brain structures.
-
-To this end, we construct a multi-modal dataset consisting of 243 cases, each with:
-- Region masks of five anatomically defined target areas on T1-weighted imaging (T1WI),
-- Lesion annotations on T2-weighted imaging (T2WI),
-- Diagnostic labels (CP or Non-CP).
-
-We further propose a **Bidirectional Projection-Based Multi-Modal Fusion Transformer (BiP-MFT)**, which integrates cross-modal features using a novel **Bidirectional Projection Fusion Module (BPFM)** to align anatomical regions (T1WI) with lesion patterns (T2WI).
-
-Our BiP-MFT achieves subject-level classification accuracy of **0.90**, specificity of **0.87**, and sensitivity of **0.94**, outperforming nine competing methods by **0.10**, **0.08**, and **0.09**, respectively. Additionally, BPFM surpasses eight alternative fusion strategies based on Transformer and U-Net backbones on our dataset.
-
-Comprehensive ablation studies demonstrate the effectiveness of the proposed annotation strategy and validate the design of the model components.
+ Transformers have demonstrated effectiveness in solving partial differential equa
+tions (PDEs). However, extending them to solve PDEs on complex geometries
+ remains a challenge. In this work, we propose SpiderSolver, a geometry-aware
+ transformer that introduces spiderweb tokenization for handling complex domain
+ geometry and irregularly discretized points. Our method partitions the irregular
+ spatial domain into spiderweb-like patches, guided by the domain boundary ge
+ometry. SpiderSolver leverages a coarse-grained attention mechanism to capture
+ global interactions across spiderweb tokens and a fine-grained attention mechanism
+ to refine feature interactions between the domain boundary and its neighboring
+ interior points. We evaluate SpiderSolver on PDEs with diverse domain geometries
+ across five datasets, including cars, airfoils, blood flow in the human thoracic aorta,
+ as well as canonical cases governed by the Navier-Stokes and Darcy flow equations.
+ Experimental results demonstrate that SpiderSolver consistently achieves state-of-the-art performance across different datasets and metrics, with better generalization
+ ability in the OOD setting.
 
 
 ## 🧠 2.  Architecture
