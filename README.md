@@ -23,11 +23,12 @@ ometry. SpiderSolver leverages a coarse-grained attention mechanism to capture
 
 
 ## 🧠 2.  Architecture
-The model's overall architecture:
+
+The model's overall architecture; Spiderweb-like sub-region structure from spiderweb tokenization; Optimal transport-based alignment for spectral clustering
 
 ![Image text](architecture.png)
 
-
+![Image text](spider_and_OT.png)
 
 
 ##  🏋️‍♂️ 4.  Training on the Infant-PWMl-CP Dataset
