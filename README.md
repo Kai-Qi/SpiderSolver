@@ -8,7 +8,7 @@ The official code repository of SpiderSolver: A Geometry-Aware Transformer for S
  remains a challenge. In this work, we propose SpiderSolver, a geometry-aware transformer that introduces spiderweb tokenization for handling complex domain
  geometry and irregularly discretized points. Our method partitions the irregular spatial domain into spiderweb-like patches, guided by the domain boundary geometry. SpiderSolver leverages a coarse-grained attention mechanism to capture global interactions across spiderweb tokens and a fine-grained attention mechanism
  to refine feature interactions between the domain boundary and its neighboring interior points. We evaluate SpiderSolver on PDEs with diverse domain geometries
- across five datasets, including cars, airfoils, blood flow in the human thoracic aorta, as well as canonical cases governed by the Navier-Stokes and Darcy flow equations.
+ across five datasets, including cars, airfoils, blood flow in the human thoracic aorta, as well as canonical cases governed by the Navier-Stokes, Darcy flow, elasticity, and plasticity equations.
  Experimental results demonstrate that SpiderSolver consistently achieves state-of-the-art performance across different datasets and metrics, with better generalization
  ability in the OOD setting.
 
