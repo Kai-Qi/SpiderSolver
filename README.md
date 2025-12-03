@@ -1,4 +1,4 @@
-### This codebase will be gradually improved over the next 1-2 weeks. Stay tuned.
+### The codebase will be completed by December 15th.
 
 
 
