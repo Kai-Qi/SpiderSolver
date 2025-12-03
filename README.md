@@ -1,4 +1,4 @@
-### The codebase will be completed by December 15th.
+### The codebase will be completed before December 15th.
 
 
 
