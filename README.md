@@ -1,3 +1,8 @@
+### This codebase will be gradually improved over the next 1-2 weeks. Stay tuned.
+
+
+
+
 # SpiderSolver
 The official code repository of SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries
 
