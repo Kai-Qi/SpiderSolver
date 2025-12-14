@@ -1,6 +1,5 @@
 
-# SpiderSolver
-The official code repository of SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries
+# The official code repository of SpiderSolver
 
 # SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries，NeurIPS 2025.
 
