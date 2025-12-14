@@ -68,9 +68,12 @@ If you find this work helpful for your research, please cite our paper:
 ```
 
 
+## 🏋️‍♂️ 7. Contact
+
+If you have any questions, please contact qikai1218@stu.xjtu.edu.cn.
 
 
-## 🙏 7. Acknowledgement
+## 🙏 8. Acknowledgement
 
 We would like to acknowledge the contributions of the following works, which inspired and supported our research:
 
