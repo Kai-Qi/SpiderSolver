@@ -1,6 +1,3 @@
-
-
-
 # Environment requirements for SpiderSolver
 einops==0.8.1
 matplotlib==3.5.0
