@@ -53,7 +53,8 @@ CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/ShapeNetCar/main_evaluati
 CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/AirfRANS/main_evaluation.py;
 
 CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/BloodFlow/main_evaluation.py;
----
+```
+
 
 
 
