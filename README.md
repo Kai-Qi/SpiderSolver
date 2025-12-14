@@ -40,7 +40,7 @@ CUDA_VISIBLE_DEVICES=0 python BloodFlow/main_SpiderSolver_BloodFlow.py --n_clust
 
 
 ### 🧪 Evaluation
-The weights of our model are available for download at [Google Drive](https://drive.google.com/drive/folders/13MhUPS-Oyygm2JXEhbEuhz5drmUiabXR?usp=sharing).
+The weights of our model are available for download at [Google Drive](https://drive.google.com/drive/folders/13MhUPS-Oyygm2JXEhbEuhz5drmUiabXR?usp=sharing)
 or [Baidu Netdisk](https://pan.baidu.com/s/1xwKLpwQdGL2vFqSFt-sQFA?pwd=4xpi).
 
 ```
