@@ -29,21 +29,21 @@ The three figures respectively show: visualization of partial datasets, the mode
 ![Image text](spider_and_OT.png)
 
 
-##  🏋️‍♂️ 4.  Training
+##  🏋️‍♂️ 3.  Training and Evaluation
 
 ### 🔧 Training
 
 ```
-CUDA_VISIBLE_DEVICES=6 python /home/qikai/SpiderSolver/ShapeNetCar/main_SpiderSolver_ShapeNetCar.py --n_clusters 6 --onion_num 10 --nb_epochs 200;
+CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/ShapeNetCar/main_SpiderSolver_ShapeNetCar.py --n_clusters 6 --onion_num 10 --nb_epochs 200;
 ```
 
 
 ```
-CUDA_VISIBLE_DEVICES=3 python /home/qikai/SpiderSolver/AirfRANS/main_SpiderSolver_Airfoil.py --onion_num 5 --n_clusters 4 --nb_epochs 398;
+CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/AirfRANS/main_SpiderSolver_Airfoil.py --onion_num 5 --n_clusters 4 --nb_epochs 398;
 ```
 
 ```
-CUDA_VISIBLE_DEVICES=6 python /home/qikai/SpiderSolver/BloodFlow/main_SpiderSolver_BloodFlow.py --n_clusters 6 --onion_num 5 --epochs 500 --width 512  --batch_size 10;
+CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/BloodFlow/main_SpiderSolver_BloodFlow.py --n_clusters 6 --onion_num 5 --epochs 500 --width 512  --batch_size 10;
 ```
 
 
@@ -68,15 +68,13 @@ CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/BloodFlow/main_evaluation
 ---
 
 
-## 🚀 5.  
 
 
-
-## 🛠️ 6. Requirements
+## 🛠️ 5. Requirements
 The required Python packages for each code implementation are listed in their respective `requirements.txt` files.
 
 
-## 📚 7. Citation
+## 📚 6. Citation
 If you find this work helpful for your research, please cite our paper:
 ```
 @inproceedings{qi2025SpiderSolver,
@@ -90,7 +88,7 @@ If you find this work helpful for your research, please cite our paper:
 
 
 
-## 🙏 8. Acknowledgement
+## 🙏 7. Acknowledgement
 
 We would like to acknowledge the contributions of the following works, which inspired and supported our research:
 
