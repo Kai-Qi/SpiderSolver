@@ -33,7 +33,7 @@ After downloading the corresponding dataset, change the corresponding data path 
 
 ```
 CUDA_VISIBLE_DEVICES=0 python ShapeNetCar/main_SpiderSolver_ShapeNetCar.py --n_clusters 6 --onion_num 10 --nb_epochs 200;
-CUDA_VISIBLE_DEVICES=0 python AirfRANS/main_SpiderSolver_Airfoil.py --onion_num 5 --n_clusters 4 --nb_epochs 398;
+CUDA_VISIBLE_DEVICES=0 python AirfRANS/main_SpiderSolver_Airfoil.py --n_clusters 4 --onion_num 5  --nb_epochs 398;
 CUDA_VISIBLE_DEVICES=0 python BloodFlow/main_SpiderSolver_BloodFlow.py --n_clusters 6 --onion_num 5 --epochs 500 --width 512  --batch_size 10;
 ```
 
