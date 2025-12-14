@@ -37,7 +37,7 @@ The three figures respectively show: visualization of partial datasets, the mode
 
 
 ### 🧪 Evaluation
-
+The model are available for download at 
 
 
 ---
