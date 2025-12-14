@@ -2,8 +2,8 @@
 # The official code repository of SpiderSolver
 
 # SpiderSolver: A Geometry-Aware Transformer for Solving PDEs on Complex Geometries，NeurIPS 2025. 
-[Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://openreview.net/pdf/054dcb68b120d4b02b356ca2f357ae4fbd463354.pdf)
-[Slides](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://neurips.cc/media/neurips-2025/Slides/116641.pdf)
+[Paper](https://openreview.net/pdf/054dcb68b120d4b02b356ca2f357ae4fbd463354.pdf)
+[Slides](https://neurips.cc/media/neurips-2025/Slides/116641.pdf)
 [Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202025/116641.png?t=1761011039.1089365)
 
 ##  🧾 1.  Abstract
