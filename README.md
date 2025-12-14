@@ -34,11 +34,11 @@ The three figures respectively show: visualization of partial datasets, the mode
 ### 🔧 Training
 
 ```
-CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/ShapeNetCar/main_SpiderSolver_ShapeNetCar.py --n_clusters 6 --onion_num 10 --nb_epochs 200;
+CUDA_VISIBLE_DEVICES=0 python ShapeNetCar/main_SpiderSolver_ShapeNetCar.py --n_clusters 6 --onion_num 10 --nb_epochs 200;
 
-CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/AirfRANS/main_SpiderSolver_Airfoil.py --onion_num 5 --n_clusters 4 --nb_epochs 398;
+CUDA_VISIBLE_DEVICES=0 python AirfRANS/main_SpiderSolver_Airfoil.py --onion_num 5 --n_clusters 4 --nb_epochs 398;
 
-CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/BloodFlow/main_SpiderSolver_BloodFlow.py --n_clusters 6 --onion_num 5 --epochs 500 --width 512  --batch_size 10;
+CUDA_VISIBLE_DEVICES=0 python BloodFlow/main_SpiderSolver_BloodFlow.py --n_clusters 6 --onion_num 5 --epochs 500 --width 512  --batch_size 10;
 ```
 
 
@@ -48,11 +48,11 @@ The weights of our model are available for download at
 
 
 ```
-CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/ShapeNetCar/main_evaluation.py;
+CUDA_VISIBLE_DEVICES=0 python ShapeNetCar/main_evaluation.py;
 
-CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/AirfRANS/main_evaluation.py;
+CUDA_VISIBLE_DEVICES=0 python AirfRANS/main_evaluation.py;
 
-CUDA_VISIBLE_DEVICES=0 python /home/qikai/SpiderSolver/BloodFlow/main_evaluation.py;
+CUDA_VISIBLE_DEVICES=0 python BloodFlow/main_evaluation.py;
 ```
 
 
